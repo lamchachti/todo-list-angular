@@ -1,0 +1,28 @@
+<div class="flex flex-col justify-center items-center h-[50vh] ">
+    <div
+        class="!z-5 relative flex flex-col rounded-[20px] max-w-[300px] md:max-w-[400px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 w-full !p-6 3xl:p-![18px] undefined">
+
+        <div class="relative flex flex-row justify-between">
+            <h4 class="text-xl font-bold text-navy-700 dark:text-white mb-3">
+                Nueva Tarea
+            </h4>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="text-sm text-navy-700 dark:text-white font-bold">description</label>
+            <input type="text" id="description" placeholder="Describe tu tarea" name="description"
+                class="mt-2 flex h-12 w-full items-center justify-center rounded-xl border bg-white/0 p-3 text-sm outline-none border-gray-200">
+        </div>
+        <div class="mb-3">
+            <label class="inline-flex items-center mt-3">
+                <span class="ml-2 text-gray-700">Está hecha?</span> <input type="checkbox"
+                    class="form-checkbox h-5 w-5 ml-3 text-gray-600" >
+            </label>
+        </div>
+        <div class="mb-3">
+            <button class="group relative h-10 w-30 overflow-hidden rounded-2xl bg-green-500 text-sm font-bold text-white p-3">
+                Añadir
+                <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+              </button>
+        </div>
+    </div>
+</div>
